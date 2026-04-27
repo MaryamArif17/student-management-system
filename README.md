@@ -1,20 +1,39 @@
-# student-management-system
-Improved student management system with average and highest marks calculation
-# Student Management System (Version 2)
+# Student Management System
 
-This is an improved version of my beginner project.
+An improved version of my student management project with better
+structure and more features.
 
-## Features:
-- Add students
-- Display students
-- Pass/Fail system
+## Features
+- Add students and their marks
+- Display all students
+- Pass/Fail system (passing mark: 50)
 - Count total students
 - Calculate average marks
 - Find highest marks
 
-## Concepts Used:
+Requires Python 3.x — no extra libraries needed.
+
+## How to Run
+python student_management.py
+## Sample Output
+Hira 89
+Kura 98
+Bisma 45
+Rida 50
+Hira Pass
+Kura Pass
+Bisma Fail
+Rida Pass
+Total Students are: 4
+The average marks are: 70.5
+The highest marks are: 98
+
+## Concepts Used
 - Functions
-- Lists
-- Dictionaries
+- Lists & Dictionaries
 - Loops
-- Conditional statements
+- Conditional Statements
+
+## What I Learned
+How to improve and refactor existing code, add more analytical
+features, and write cleaner Python functions.
